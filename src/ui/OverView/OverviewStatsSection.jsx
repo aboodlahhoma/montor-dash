@@ -16,7 +16,7 @@ const overviewIcons = {
 
 export default function OverviewStatsSection() {
     return (
-        <section className="grid gap-4 md:grid-cols-2 2xl:grid-cols-4">
+        <section className="grid    gap-4 md:grid-cols-2 2xl:grid-cols-4">
             {overviewStats.map((item) => (
                 <StatCard
                     key={item.key}
